@@ -1,0 +1,100 @@
+body {
+	background-color: #eeeeee;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.container-fluid {
+	color: #cccccc;
+	background-color: #ffffff;
+	border-width: 3px;
+	border-style: none none solid none;
+}
+
+.font-weight-bold {
+	font-size: 36px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.navbar-brand {
+	background: #4aaaa5;
+	color: #ffffff;
+	padding: 30px;
+}
+
+.navbar-item {
+	font-size: 20px;
+	padding: 0px 20px 0px 20px;
+	color: #777777;
+}
+
+.card {
+	margin: 50px auto;
+	line-height: 2;
+	color: #777777;
+	background-color: #ffffff;
+}
+
+.card-header {
+	color: #4aaaa5;
+	background-color: #ffffff;
+}
+
+.fixed-bottom {
+	padding: 20px;
+	background-color: #666666;
+	color: #ffffff;
+	border-width: 5px;
+	border-style: solid none none none;
+	border-color: #4aaaa5;
+}
+
+#message {
+	height: 160px;
+}
+
+#submit {
+	background-color: #4aaaa5;
+	border: none;
+	color: #ffffff;
+	padding: 10px 30px;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.project {
+	width: 100%;
+	height: auto;
+	float: left;
+	margin: 0 20px 0 0;
+}
+
+.project_name {
+	width: 100%;
+	color: #ffffff;
+	text-decoration: none;
+	background-color: #4aaaa5;
+	text-align: center;
+	font-size: 24px;
+	float: left;
+	position: relative;
+	top: -70px;
+}
+
+@media (max-width: 576px) {
+	#name {
+		text-align: center;
+		width: 100%;
+		margin: 0;
+	}
+
+	#link,
+	#portfolio {
+		margin: auto;
+		padding: 10px 0px 10px 0px;
+	}
+
+	#portfolio {
+		border-style: none;
+		float: left;
+	}
+}
