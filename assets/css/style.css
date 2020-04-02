@@ -48,53 +48,21 @@ body {
 	border-color: #4aaaa5;
 }
 
-#message {
-	height: 160px;
-}
-
-#submit {
+.btn {
 	background-color: #4aaaa5;
 	border: none;
 	color: #ffffff;
 	padding: 10px 30px;
 	font-size: 20px;
-	text-decoration: none;
-}
-
-.project {
-	width: 100%;
-	height: auto;
-	float: left;
-	margin: 0 20px 0 0;
 }
 
 .project_name {
 	width: 100%;
 	color: #ffffff;
-	text-decoration: none;
 	background-color: #4aaaa5;
 	text-align: center;
 	font-size: 24px;
 	float: left;
 	position: relative;
 	top: -70px;
-}
-
-@media (max-width: 576px) {
-	#name {
-		text-align: center;
-		width: 100%;
-		margin: 0;
-	}
-
-	#link,
-	#portfolio {
-		margin: auto;
-		padding: 10px 0px 10px 0px;
-	}
-
-	#portfolio {
-		border-style: none;
-		float: left;
-	}
 }
