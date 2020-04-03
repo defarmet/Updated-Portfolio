@@ -56,13 +56,9 @@ body {
 	font-size: 20px;
 }
 
-.project_name {
-	width: 100%;
+.project {
 	color: #ffffff;
 	background-color: #4aaaa5;
-	text-align: center;
 	font-size: 24px;
-	float: left;
-	position: relative;
-	top: -70px;
+	top: -100px;
 }
