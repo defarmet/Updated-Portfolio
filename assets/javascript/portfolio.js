@@ -13,3 +13,4 @@ function load_project(name, link) {
 load_project("Portfolio", "index.html");
 load_project("Giftastic", "https://defarmet.github.io/Giftastic/");
 load_project("RPS-Multiplayer", "https://defarmet.github.io/RPS-Multiplayer/");
+load_project("Kidz Read", "https://ucf-online-project-2.herokuapp.com/");
